@@ -1,0 +1,160 @@
+/* Write your CSS here */
+.main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  width: 90%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px black;
+  border-radius: 12px;
+}
+@media screen and (max-width: 576px) {
+  .sub-container {
+    width: 90vw;
+    padding: 20px;
+  }
+}
+.form-styling {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #171f46;
+  font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  .main-heading {
+    font-size: 26px;
+  }
+}
+.label-styling {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 576px) {
+  .label-styling {
+    font-size: 14px;
+  }
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  height: 35px;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 14px;
+  }
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #171f46;
+  padding: 10px;
+  border: 2px solid #b5b7c4;
+  border-radius: 5px;
+  height: 35px;
+  max-width: 400px;
+}
+@media screen and (max-width: 576px) {
+  .date {
+    font-size: 14px;
+  }
+}
+.form-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px none;
+}
+.appointment-image {
+  width: 50%;
+}
+@media screen and (max-width: 576px) {
+  .appointment-image {
+    display: none;
+  }
+}
+.button {
+  height: 26px;
+  width: 60px;
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #ffffff;
+  border: 0px none;
+  border-radius: 8px;
+  background-color: #9796f0;
+}
+.hr-styling {
+  color: #171f46;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bottom-container {
+  width: 100%;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+}
+.appointment-card {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+}
+@media screen and (max-width: 576px) {
+  .appointment-card {
+    flex-direction: column;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #171f46;
+  font-weight: 500;
+}
+
+.filter-filled {
+  color: #ffffff;
+  background-color: #9897f0;
+}
+
+.filter-empty {
+  color: #9897f0;
+  background-color: white;
+  border: 1px solid #9897f0;
+}
+
+.starred-button {
+  height: 26px;
+  width: 80px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  margin-top: 20px;
+}
